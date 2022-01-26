@@ -12,7 +12,7 @@ struct Node
     as the head will be re-assigned to
     the new node, which means you need
     to pass in a pointer that points to
-    curren head of Node*, and we can later 
+    curren head of type Node*, and we can later 
     change it to point to the new node(head).
 */
 void push(Node **head, int val)
